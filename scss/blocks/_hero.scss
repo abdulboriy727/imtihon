@@ -1,0 +1,73 @@
+.hero__container{
+  background-image: url(/images/Bitmap.png);
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  height: 650px;
+  padding-left: 0px;
+}
+
+.hero__title{
+  width: 500px;
+  color: $white-color;
+  font-size: 56px;
+  letter-spacing: -2.5px;
+  margin: auto;
+  padding: auto;
+}
+.hero__box{
+  width: 800px;
+  padding-top: 153px;
+}
+
+.hero__text{
+  width: 405px;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: auto;
+  padding: auto;
+  color: $white-color;
+  padding-bottom: 40px;
+}
+
+.hero__btn{
+  width: 180px;
+  height: 53px;
+  border: none;
+  background-color: $yellow-color;
+  color: $white-color;
+  font-weight: 700;
+}
+
+.hero__btn:hover {
+  transition: all 1s ease;
+  background-color: transparent;
+  border: 3px solid $yellow-color;
+  color: $yellow-color;
+}
+
+@media only screen and (max-width: 760px){
+
+  .hero__container{
+    background-image: url(/images/Bitmap\ tablet.png);
+    background-size: cover;
+    text-align: center;
+  }
+
+  .hero__img{
+    width: 0px;
+  }
+
+  .hero__img-2{
+    width: 300px;
+    position: absolute;
+    right: 460px;
+  }
+
+  .hero__text{
+    width: 573px;
+  }
+
+  .mini__box{
+    margin: auto;
+  }
+
+}

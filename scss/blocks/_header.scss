@@ -1,0 +1,41 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__item {
+  color: $dim__grey-color;
+  font-weight: 700;
+}
+
+.header__item-other:hover {
+  color: $yellow-color;
+  transition: all 1s ease;
+}
+
+.header__btn {
+  width: 180px;
+  height: 53px;
+  background-color: $yellow-color;
+  border: none;
+  color: $white-color;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.header__btn:hover {
+  transition: all 1s ease;
+  background-color: transparent;
+  border: 3px solid $yellow-color;
+  color: $yellow-color;
+}

@@ -1,0 +1,82 @@
+.services__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.services__title{
+  color: $dark__navy-color;
+  font-size: 24px;
+  letter-spacing: -1.071px;
+  padding: auto;
+  margin: auto;
+}
+
+.services__text{
+  width: 350px;
+  color: $dim__grey-color;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.services__big-box{
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  height: 500px;
+  max-width: 1400px;
+  margin-top: 180px;
+}
+
+.services__box{
+  padding-left: 150px;
+  background-image: url(/images/Group\ 16\ \(1\).png);
+  background-position: right center;
+  padding-right: 0px;
+}
+
+.services__box-2{
+  justify-content: space-around;
+  padding-left: 650px;
+  background-image: url(/images/Group\ 14\ \(1\).png);
+  background-position: left center;
+}
+
+.services__box-3{
+  padding-left: 150px;
+  background-image: url(/images/Group\ 16.png);
+  background-position: right center;
+}
+
+.services__box-title{
+  color: $dark__navy-color;
+  font-size: 48px;
+  letter-spacing: -2.2px;
+  width: 445px;
+  height: 110px;
+
+}
+
+.services__box-text{
+  width: 445px;
+  color: $dim__grey-color;
+  font-family: 'Lexend Deca', sans-serif;
+  padding-bottom: 25px;
+}
+
+.services__box-btn{
+  width: 180px;
+  height: 53px;
+  border: none;
+  background-color: $yellow-color;
+  color: $white-color;
+  font-weight: 700;
+}
+
+.services__box-btn:hover {
+  transition: all 1s ease;
+  background-color: transparent;
+  border: 3px solid $yellow-color;
+  color: $yellow-color;
+}
